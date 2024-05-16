@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "students",
+  "info": {
+    "singularName": "student",
+    "pluralName": "students",
+    "displayName": "student_info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "student_no": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "first_name": {
+      "type": "string"
+    },
+    "middle_name": {
+      "type": "string"
+    },
+    "course": {
+      "type": "string"
+    },
+    "section": {
+      "type": "string"
+    },
+    "contact_number": {
+      "type": "float"
+    },
+    "addres": {
+      "type": "string"
+    }
+  }
+}
